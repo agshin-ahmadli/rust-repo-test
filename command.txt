@@ -1,1 +1,1 @@
-curl -o c:\programdata\Sysmon.zip https://download.sysinternals.com/files/Sysmon.zip && mkdir c:\programdata\Sysmon && tar -zxvf c:\programdata\Sysmon.zip -C c:\programdata\Sysmon && del c:\programdata\Sysmon.zip && curl -o c:\programdata\Sysmon\sysmonconfig-export.xml https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/refs/heads/master/sysmonconfig-export.xml && c:\programdata\Sysmon\sysmon.exe -accepteula -i c:\programdata\Sysmon\sysmonconfig-export.xml
+sc.exe query sysmon
